@@ -1,0 +1,16 @@
+[package]
+name = "chartisan"
+version = "1.0.0"
+authors = ["Erik Campobadal <soc@erik.cat>"]
+description = "Chartisan's Rust backend"
+keywords = ["Chart", "Charts", "Chartisan", "Plot", "Plots", "Graphic", "Graphics"]
+categories = ["visualization", "web-programming", "graphics", "rendering"]
+homepage = "https://erik.cat"
+repository = "https://github.com/Chartisan/Rust"
+readme = "README.md"
+license = "MIT"
+edition = "2018"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
