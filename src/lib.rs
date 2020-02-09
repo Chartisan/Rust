@@ -67,7 +67,7 @@ impl<'a> Chartisan<'a> {
     }
 
     /// Transforms the chart into a JSON string.
-    pub fn to_JSON(&self) -> String {
+    pub fn to_json(&self) -> String {
         serde_json::to_string(&self.server_data)
             .unwrap_or("{\"error\": \"Error converting chart to JSON\"}".to_string())
     }

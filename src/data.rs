@@ -1,5 +1,5 @@
 extern crate serde;
-use serde::{Deserialize, Serialize};
+use serde::Serialize;
 use std::collections::HashMap;
 
 /// Reprensets the ChartData structure.
